@@ -1,0 +1,60 @@
+.App {
+  height: 140vh;
+  padding: 50px;
+  background: black;
+  color: white;
+  padding-left: 200px;
+}
+
+.App-div {
+  width: 80%;
+  padding: auto;
+  margin: auto;
+}
+
+.App img:first-of-type {
+  width: 80%;
+  height: 200px;
+}
+
+.App img {
+  width: 70%;
+  height: auto;
+  padding-top: 20px;
+  margin-bottom: 0;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  margin-right: 80px;
+}
+
+
+.text{
+  margin-bottom: 5px;
+} 
+
+.head div {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 125px;
+}
+
+.head .link {
+  border-bottom: 2px solid green;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 19px;
+  padding: 5px;
+  padding-top: 30px;
+  color: white;
+}
+
+.head .heading {
+  font-size: 50px;
+}
+
+.text span {
+  padding-right: 10px;
+} 
